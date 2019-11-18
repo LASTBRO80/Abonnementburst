@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang=fr>
+<head>
+<title>cashout</title>
+</head>
+
+<body>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="79ZL42JY95T6G">
+<table>
+<tr><td><input type="hidden" name="on0" value="Bonoeuvre">Bonoeuvre</td></tr><tr><td><select name="os0">
+	<option value="Option 1">Option 1 : €25,00 EUR - hebdomadaire</option>
+	<option value="Option 2">Option 2 : €60,00 EUR - hebdomadaire</option>
+	<option value="Option 3">Option 3 : €100,00 EUR - hebdomadaire</option>
+	<option value="Option 4">Option 4 : €150,00 EUR - mensuel</option>
+	<option value="Option 5">Option 5 : €250,00 EUR - mensuel</option>
+	<option value="Option 6">Option 6 : €300,00 EUR - mensuel</option>
+	<option value="Option 7">Option 7 : €400,00 EUR - mensuel</option>
+	<option value="Option 8">Option 8 : €500,00 EUR - mensuel</option>
+	<option value="Option 9">Option 9 : €600,00 EUR - mensuel</option>
+	<option value="Option 10">Option 10 : €1 000,00 EUR - mensuel</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="EUR">
+<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+</form>
+</body>
+</html>
